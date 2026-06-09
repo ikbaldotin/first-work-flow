@@ -1,11 +1,10 @@
 name: ikbal
-on: 
-  push: 
+on:
+  push:
     branches: [main]
 jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
       - name: greeting
-      run: echo "Hello world."
-    
+        run: echo "Hello world."
